@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: productmicro-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ProductMicro
+  template:
+    metadata:
+      labels:
+        app: ProductMicro
+    spec:
+      containers:
+      - name: productmicro
+        image: productmicroservicecr.azurecr.io/productmicro:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: redone
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: product
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: Product
