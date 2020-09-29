@@ -78,3 +78,4 @@ G:\visual studio\CTS MFPE Project V3\backup\Retail Product Management\Retail Pro
 G:\visual studio\CTS MFPE Project V3\backup\Retail Product Management\Retail Product Management\ProductsModule\Product\obj\Debug\netcoreapp3.1\Product.dll
 G:\visual studio\CTS MFPE Project V3\backup\Retail Product Management\Retail Product Management\ProductsModule\Product\obj\Debug\netcoreapp3.1\Product.pdb
 G:\visual studio\CTS MFPE Project V3\backup\Retail Product Management\Retail Product Management\ProductsModule\Product\obj\Debug\netcoreapp3.1\Product.genruntimeconfig.cache
+G:\visual studio\CTS MFPE Project V3\backup\Retail Product Management\Retail Product Management\ProductsModule\Product\bin\Debug\netcoreapp3.1\Product.yaml
