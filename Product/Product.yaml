@@ -13,8 +13,8 @@ spec:
         app: Product
     spec:
       containers:
-      - name: productmicro
-        image: productmicroservicecr.azurecr.io/productmicro:latest
+      - name: productmicrorepo
+        image: productmicroservicecr.azurecr.io/productmicrorepo:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
