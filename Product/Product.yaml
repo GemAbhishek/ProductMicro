@@ -1,16 +1,16 @@
 ﻿apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: productmicro-deployment
+  name: product-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ProductMicro
+      app: Product
   template:
     metadata:
       labels:
-        app: ProductMicro
+        app: Product
     spec:
       containers:
       - name: productmicro
